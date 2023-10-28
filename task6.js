@@ -1,5 +1,5 @@
-//
-//
+//Задача №6: Расчет времени пути
+//Создайте функцию calculateTime(distance, speed), которая принимает расстояние и скорость (в км/ч), а затем возвращает время в пути в формате ХХч. ХХм.
 
 function calculateTime(distance, speed) {
     var timeInHours = distance / speed;

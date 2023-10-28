@@ -1,5 +1,5 @@
-//
-//
+//Задача №11: Калькулятор бонусов сотрудника
+//Создайте функцию calculateEmployeeBonus(salary, performanceRating), которая принимает зарплату сотрудника и его рейтинг производительности, а затем возвращает бонус. Если рейтинг выше 8, бонус составляет 20% от зарплаты, в противном случае - 10%.
 
 function calculateEmployeeBonus(salary, performanceRating) {
     let bonus;

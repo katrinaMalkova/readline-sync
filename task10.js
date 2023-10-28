@@ -1,5 +1,5 @@
-//
-//
+//Задача №10: Генератор случайных уравнений
+//Напишите функцию generateRandomEquation(), которая генерирует случайное уравнение вида ax + b = c, где a, b и c - случайные числа.
 
 function generateRandomEquation() {
     const a = Math.floor(Math.random() * 10) + 1; // случайное число от 1 до 10

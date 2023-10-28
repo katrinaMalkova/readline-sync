@@ -1,5 +1,5 @@
-//
-//
+//Задача №9: Расчет средней оценки
+//Создайте функцию calculateAverageGrade(grades), которая принимает строку со списком оценок и возвращает среднюю оценку. Оценки могут быть представлены числами от 1 до 10.
 
 function calculateAverageGrade(grades) {
     let gradeList = grades.split(",");

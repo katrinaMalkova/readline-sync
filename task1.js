@@ -4,10 +4,10 @@
 function incomeTaxCalculator(income) {
     // Рассчитываем налог как 15% от суммы дохода
     var taxRate = 0.15; // 15%
-    var taxAmount = income * taxRate;
-    return taxAmount;
+    var taxAmount = income * taxRate; (taxAmount) //В этой строке рассчитывается сумма налога
+    return taxAmount; //Функция возвращает рассчитанную сумму налога.
   }
 
-//var income = 11000;
-//var tax = incomeTaxCalculator(income);
-//console.log("Income tax amount:", tax);
+//var income = 11000; //Это объявление переменной income и установка ей значения 11000, предполагая, что это сумма дохода, которую мы хотим использовать для расчета налога.
+//var tax = incomeTaxCalculator(income); //Здесь вызывается функция
+//console.log("Income tax amount:", tax); //
